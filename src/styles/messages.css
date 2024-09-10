@@ -1,0 +1,465 @@
+.background-shade-msg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  z-index: -1;
+}
+.container-box-msg {
+  width: 100%;
+  margin-top: 3%;
+  font-family: sans-serif;
+}
+.sub-container-msg {
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container-left-msg {
+  width: 20%;
+  border: 1px solid #dddddd;
+}
+.container-right-msg {
+  width: 80%;
+  border: 1px solid #dddddd;
+}
+.inbox-text-msg {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.seperator-msg {
+  width: 100%;
+  background-color: #dddddd;
+  margin-top: 12px;
+  height: 1px;
+}
+.inbox-mini-msg {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.inbox-mini2-msg {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.seperator2-msg {
+  width: 100%;
+  background-color: #dddddd;
+  height: 1px;
+  margin-top: 12px;
+}
+@media (max-width: 764px) {
+  .background-shade-msg {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    z-index: -1;
+  }
+  .parent-msg {
+    width: 100%;
+    height: 100%;
+  }
+  .container-box-msg {
+    width: 100%;
+    margin-top: 3%;
+    font-family: sans-serif;
+  }
+  .sub-container-msg {
+    background-color: white;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .inbox-text-msg {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .inbox-mini-msg {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .inbox-mini2-msg {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+}
+/*-------------------Live Messages---------------*/
+.parent-live {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+.box-container-live {
+  width: 80%;
+  background-color: #efe6dd;
+  border-radius: 10px;
+  margin: 30px auto 30px auto;
+  font-family: "Segoe UI";
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 140px);
+  overflow: hidden;
+}
+/*Left side*/
+.left-container-live {
+  width: 35%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow-y: scroll;
+}
+.header-left0-live {
+  background-color: #1fad4e;
+  display: flex;
+  margin: 20px;
+  border-radius: 10px;
+  height: 120px;
+  align-items: center;
+  padding-left: 30px;
+  color: white;
+}
+.header-left1-heading {
+  font-weight: 700;
+  font-size: 30px;
+}
+.header-left1-live {
+  width: 15%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.profile-image-live {
+  border-radius: 50px;
+}
+.header-left1-holder {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+.name-left-live {
+  font-size: 20px;
+}
+.body-left-container-live {
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+.parent-select-user-live {
+  height: 100%;
+  padding: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+}
+.parent-select-user-sub-live {
+  display: flex;
+  align-items: center;
+}
+.profile-user-live {
+  width: 10%;
+}
+.name-user-live {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.msgcount-user-live {
+float: left;
+margin-left: auto;
+background-color: #1fad4e;
+border-radius: 50%;
+height: 22px;
+width: 20px;
+text-align: center;
+color: white;
+
+}
+.user-timestamp {
+  display: block;
+  min-width: 60px;
+  margin-top: -10px;
+}
+.container-user-live {
+  cursor: pointer;
+  margin: 10px 20px 0 20px;
+  height: 80px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+/*Right side*/
+
+.default-container-live {
+  width: 64%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-container-live {
+  width: 64%;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.header-right0-live {
+  background-color: #1fad4e;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+}
+
+.header-right0-image-live {
+  max-width: 55px;
+  border-radius: 50%;
+}
+
+.header-right0-live img {
+  width: 60%;
+}
+.header-right1-live {
+  width: 8%;
+}
+.profile-image-live {
+  border-radius: 50px;
+}
+.name-right-holder {
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.name-right-live {
+  font-size: 24px;
+  font-weight: 700;
+}
+.name-right-status {
+  font-size: 18px;
+}
+.input-parent-live {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input-container-live {
+  height: 50px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.input-live {
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 100;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 20px 0 20px;
+}
+.send-msg-live {
+  background-color: transparent;
+  border: 1px solid #1fad4e;
+  background-color: #1fad4e;
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 100%;
+  width: 55px;
+  cursor: pointer;
+}
+.sender-live {
+  width: 100%;
+}
+.sender-text-container-live {
+  background-color: #e7ffdb;
+  padding: 10px 5px 10px 20px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  float: right;
+  max-width: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.sender-text-container-live1 {
+  background-color: #e7ffdb;
+  padding: 5px 5px 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+
+  
+  border-bottom: 1px solid black;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  float: right;
+  width: 100%;
+  max-width: 20%;
+  height: 100px; 
+  margin-right: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.message-permission-container {
+  display: flex;
+  justify-content: end; 
+  align-items: center;
+  gap: 20px; 
+  float: right;
+  width: 23%;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.message-permission {
+  background-color: #ffffff;
+  padding: 5px 25px 1px 20px;
+  border: 1px solid transparent;
+  /* display: flex; */
+  /* justify-content: end;  */
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  
+  width: 50px;
+  cursor: pointer;
+}
+.clearfix {
+  clear: both;
+  width: 100%;
+}
+
+.spacer {
+  height: 20px; 
+}
+.text-container-wrapper {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.sender-timestamp {
+  font-size: 10px;
+  color: #1fad4e;
+  padding-left: 15px;
+  min-width: 50px;
+}
+.reciever-timestamp {
+  font-size: 10px;
+  color: #6e6e6e;
+  padding-left: 5px;
+  min-width: 50px;
+}
+.sender-text-live {
+  color: black;
+}
+.reciever-text-container-live {
+  background-color: white;
+  padding: 10px 5px 10px 20px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  float: left;
+  max-width: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.reciever-text-live {
+  color: black;
+}
+
+.msgs-body {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  height: 100%;
+  margin: 0 20px 0 20px;
+}
+
+.msgs-parent-live {
+  display: block;
+  height: calc(100% - 220px);
+  overflow-y: scroll;
+  
+}
+/*-----------------------------------------------*/
+
+@media (max-width: 764px) {
+  .header-left0-live {
+    display: none;
+  }
+  .container-user-live {
+    cursor: pointer;
+    margin: 5px;
+    height: 120px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .parent-select-user-live {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .name-user-live {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .default-container-live {
+    font-size: 15px;
+  }
+  .image-right-container-live {
+    display: none;
+  }
+  .image-right-live-message {
+    height: 50px;
+    width: 50px !important;
+  }
+
+  .header-right0-live {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-live {
+    font-size: 12px;
+
+    padding-left: 5px;
+  }
+}

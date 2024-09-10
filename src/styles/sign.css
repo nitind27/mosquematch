@@ -1,0 +1,480 @@
+.signIn-parent-signIn {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  height: 100vh;
+}
+.logo-signIn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.parent-container-signIn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.box-signIn {
+  width: 45%;
+  background-color: white;
+  border-radius: 10px;
+}
+.fields-container-signIn {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.name-signIn {
+  color: black;
+}
+.input-signIn {
+  width: 95%;
+  height: 20px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.terms-container-signIn {
+  margin-left: 4%;
+  margin-top: 2%;
+  color: rgb(70, 70, 70);
+}
+.terms-signIn {
+  font-size: 14px;
+}
+.forgot-container-signIn {
+  margin-top: 1%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.forgot-signIn {
+  margin-right: 4%;
+  color: #b52d3b;
+  cursor: pointer;
+}
+.signIn-btn-container-signIn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.signIn-button-signIn {
+  color: white;
+  background-color: #b52d3b;
+  border: 1px solid rgb(70, 70, 70);
+  outline: none;
+  width: 90%;
+  height: 40px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.or-signIn {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 14px;
+}
+.input-password-signIn {
+  width: 95%;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 2px;
+}
+.or-container-signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+.or-left-signIn {
+  width: 80px;
+  height: 2px;
+  background-color: #b52d3b;
+}
+.or-right-signIn {
+  width: 80px;
+  height: 2px;
+  background-color: #b52d3b;
+}
+.register-button-signIn:focus {
+  outline: none;
+}
+.no-acc-container-signIn {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.signGoogle-signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+.signIn-google-container-signIn {
+  height: 45px;
+  z-index: 1;
+}
+.imam-signIn {
+  text-align: center;
+  margin-top: 20px;
+  color: #b52d3b;
+  cursor: pointer;
+}
+.no-acc-imam-signIn {
+  color: #b52d3b;
+  margin-top: 10px;
+  cursor: pointer;
+}
+@media (max-width: 764px) {
+  .logo-signIn {
+    padding-top: 14%;
+    font-size: 26px;
+  }
+  .parent-container-signIn {
+    padding-top: 10%;
+  }
+  .box-signIn {
+    width: 85%;
+  }
+  .terms-signIn {
+    font-size: 12px;
+    padding-top: 2%;
+  }
+  .signIn-btn-container-signIn {
+    padding-top: 20%;
+  }
+}
+
+/*-------------Sign Up---------------*/
+.signUp-parent-signUp {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  padding-bottom: 5%;
+}
+.logo-signUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.parent-container-signUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.box-signUp {
+  width: 45%;
+  background-color: white;
+  border-radius: 10px;
+}
+.fields-container-signUp {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.name-signUp {
+  color: black;
+}
+.input-signUp {
+  width: 95%;
+  height: 20px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.terms-container-signUp {
+  margin-left: 4%;
+  margin-top: 2%;
+  color: rgb(70, 70, 70);
+}
+.user-not-google-signIn {
+  color: #b52d3b;
+  text-align: center;
+}
+.terms-signUp {
+  font-size: 14px;
+}
+.signUp-btn-container-signUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.signUp-button-signUp {
+  color: white;
+  background-color: #b52d3b;
+  border: 1px solid rgb(70, 70, 70);
+  outline: none;
+  width: 90%;
+  height: 40px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.or-signUp {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 14px;
+}
+.or-container-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+.or-left-signUp {
+  width: 80px;
+  height: 2px;
+  background-color: #b52d3b;
+}
+.or-right-signUp {
+  width: 80px;
+  height: 2px;
+  background-color: #b52d3b;
+}
+.register-button-signUp:focus {
+  outline: none;
+}
+.no-acc-container-signUp {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.signGoogle-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+.signUp-google-container-signUp {
+  height: 45px;
+  z-index: 1;
+}
+@media (max-width: 764px) {
+  .signUp-parent-signUp {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 235, 235);
+    height: 110vh;
+  }
+  .logo-signUp {
+    padding-top: 14%;
+    font-size: 26px;
+  }
+  .parent-container-signUp {
+    padding-top: 10%;
+  }
+  .box-signUp {
+    width: 85%;
+  }
+  .terms-signUp {
+    font-size: 12px;
+    padding-top: 2%;
+  }
+  .signUp-btn-container-signUp {
+    padding-top: 20%;
+  }
+}
+
+/*----------------Forgot Pass----------------*/
+.parent-forgot {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  height: 100vh;
+}
+.logo-forgot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.parent-container-forgot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.box-forgot {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+}
+.text1-forgot {
+  font-size: 25px;
+}
+.text2-forgot {
+  margin-top: 1%;
+  color: gray;
+}
+.email-container-forgot {
+  margin-top: 4%;
+}
+.email-container-forgot {
+  margin-top: 2%;
+  width: 100%;
+  justify-content: center;
+}
+.email-input-container-forgot {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.email-input-forgot {
+  width: 98%;
+  height: 34px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+}
+.submit-container-forgot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.submit-forgot {
+  width: 99%;
+  height: 45px;
+  background-color: #b52d3b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.remember-container-forgot {
+  margin-top: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.remember-forgot {
+  color: #b52d3b;
+  text-decoration: underline;
+}
+@media (max-width: 764px) {
+  .logo-forgot {
+    padding-top: 14%;
+    font-size: 26px;
+  }
+  .parent-container-forgot {
+    padding-top: 10%;
+  }
+  .parent-container-forgot {
+    padding-top: 10%;
+  }
+}
+/*-------------------------------------------*/
+
+/*----------------Reset Pass----------------*/
+.parent-reset {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  height: 100vh;
+}
+.logo-reset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.parent-container-reset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.box-reset {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+}
+.text-container-reset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-reset {
+  font-size: 20px;
+  font-weight: bold;
+}
+.email-container-reset {
+  margin-top: 4%;
+}
+.email-container-reset {
+  margin-top: 2%;
+  width: 100%;
+  justify-content: center;
+}
+.email-input-container-reset {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.email-input-reset {
+  width: 98%;
+  height: 34px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+}
+.confirm-text-reset {
+  margin-top: 3%;
+}
+.submit-container-reset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.submit-reset {
+  width: 99%;
+  height: 45px;
+  background-color: #b52d3b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.remember-container-reset {
+  margin-top: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.remember-reset {
+  color: #b52d3b;
+  text-decoration: underline;
+}
+/*-------------------------------------------*/

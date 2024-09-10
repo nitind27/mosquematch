@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "first": "Moskeija",
+    "second": "Sovitus",
+    "login": "Kirjaudu sisään"
+  },
+  "img": {
+    "title1": "Löydä muslimielämäsi",
+    "title2": "Kumppani",
+    "subtitle": "Luotettu sivusto, jota käyttää yli 7,5 miljoonaa muslimia maailmanlaajuisesti",
+    "btn": "Näytä sinkut nyt",
+    "subtext1": "Premium-palvelu, suunniteltu erityisesti muslimeille",
+    "subtext2": "Pääsy kehittyneisiin viestintäominaisuuksiin",
+    "subtext3": "Luotettu sivusto, tukemana Cupid Media"
+  },
+  "intro": {
+    "heading1": "Miksi valita Muslima?",
+    "heading2": "Kansainväliset muslimimatrimonials - luotettu yli 7,5 miljoonan muslimin toimesta",
+    "heading3": "Aloita menestystarinasi Muslimalla",
+    "para1": "Muslima on auttanut tuhansia muslimisinkkuja löytämään kumppaninsa. Yhtenä johtavista islamilaisista avioliittosivustoista olemme yksi suurimmista ja luotettavimmista sivustoista maailmanlaajuisesti. Harvat muut sivustot voivat tarjota sinulle yli 7,5 miljoonan jäsenen jäsenrekisteriä ja luvata esitellä sinut yksinäisille muslimimiehille ja -naisille ympäri maailmaa.",
+    "para2": "Muslima on osa hyvin perustetun Cupid Median verkostoa, joka hallinnoi yli 30 arvostettua niche-sivustoa. Toisin kuin muut sivustot, sivustomme on tarkoitettu vain niille, jotka etsivät muslimisinkkuja avioliittoon islamilaisia kosiskelusääntöjä noudattaen.",
+    "para3": "Jäsenistömme koostuu yli 7,5 miljoonasta sinkusta Yhdysvalloista, Euroopasta, Aasiasta, Lähi-idästä ja monista muista maista. Olemme sitoutuneet auttamaan sinua löytämään täydellisen islamilaisen kumppanin, missä ikinä maailmassa he sattuvatkin olemaan.",
+    "para4": "Johtavana sivustona muslimiavioliitoille tuomme menestyksekkäästi yhteen sinkkuja ympäri maailmaa. Vuodesta 2006 lähtien tuhannet onnelliset miehet ja naiset ovat tavanneet sielunkumppaninsa Muslimalla ja jakaneet tarinansa kanssamme. Katso monet menestystarinat täältä.",
+    "para5": "Anna meidän auttaa sinua täyttämään uskosi ja ansaitsemaan palkintosi Allahilta (swt). Liity ilmaiseksi tänään."
+  },
+  "results": {
+    "heading": "Jäsenet, jotka ovat löytäneet rakkauden",
+    "story1": "Löysin sen, jota etsin.",
+    "name1": "Muhammad",
+    "story2": "Menimme kihloihin Nadorissa, Marokossa",
+    "name2": "Ismail",
+    "story3": "Tapasin vaimoni Musliman kautta, Alhamdulillah!",
+    "name3": "Ruh",
+    "story4": "Allah ohjasi meidät molemmat puoliväliin maapalloa löytääksemme toisemme",
+    "name4": "Adis",
+    "button": "Lue todistuksia"
+  },
+  "works": {
+    "heading": "Miten se toimii",
+    "sub": "Aloita tänään MosqueMatch.comissa 3 yksinkertaisessa vaiheessa:",
+    "step1": "Luo profiili",
+    "step2": "Selaa kuvia",
+    "step3": "Aloita viestintä",
+    "para1": "Luo profiilisi sekunneissa helppolla rekisteröitymisellämme. Älä unohda lisätä kuvaa!",
+    "para2": "Selaa suurta jäsenkantaamme helposti erilaisten mieltymysten ja asetusten avulla.",
+    "para3": "Lähetä viesti tai kiinnostuksen osoitus aloittaaksesi viestinnän jäsenten kanssa. On sinun aikasi loistaa.",
+    "button": "Löydä kumppanisi"
+  },
+  "download": {
+    "heading": "Lataa nyt"
+  },
+  "footer": {
+    "language": "Tämä sivusto on saatavilla myös kielellä: ",
+    "visit": "Vieraile muilla sivustoillamme",
+    "legalHead1": "Yritys",
+    "legalHead2": "Tiedot",
+    "legalHead3": "Oikeudellinen",
+    "legalHead4": "Seuraa meitä",
+    "legalPara1": "Tietoja meistä",
+    "legalPara2": "Muut sivustot",
+    "legalPara3": "Yritys",
+    "legalPara4": "Kumppanit",
+    "legalPara5": "Menestystarinoita",
+    "legalPara6": "Ota yhteyttä",
+    "legalPara7": "Turvallisuus verkkokokouksissa",
+    "legalPara8": "Sivukartta",
+    "legalPara9": "Käyttöehdot",
+    "legalPara10": "Tietosuojalausunto",
+    "legalPara11": "Palautuskäytäntö",
+    "legalPara12": "Evästekäytäntö",
+    "legalPara13": "Yhteisösäännöt",
+    "rights": "Cupid Media, Cupid Media -logo ja Muslima.com ovat Ecom Holdings Pty Ltd:n rekisteröityjä tavaramerkkejä, ja niitä käytetään Cupid Media Pty Ltd:n luvalla."
+  }
+}

@@ -1,0 +1,272 @@
+.option-section-interest {
+  display: flex;
+  margin-left: 1%;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.option-section-interest .option-1-interest,
+.view-text-interest {
+  min-width: 200px;
+  /* border-right: 1px solid #b52d3b; */
+  padding: 10px;
+  text-align: start;
+}
+
+.option-section-interest .option-2-interest,
+.view-text-interest4 {
+  min-width: 200px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.view-text-interest.two {
+  border: unset !important;
+}
+
+@media (max-width: 750px) {
+  .container-view-interest {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-container-view-interest {
+    width: 100% !important;
+  }
+
+  .bottom-container-search {
+    width: 100%;
+  }
+
+  .user-info {
+    font-size: 10px;
+  }
+
+  .view-text-interest {
+    margin-left: 0% !important;
+  }
+
+  .option-section-interest {
+    margin-left: 0%;
+  }
+  .option-section-interest .option-1-interest,
+  .view-text-interest {
+    font-size: 20px !important;
+    min-width: 140px;
+  }
+  .option-section-interest .option-2-interest,
+  .view-text-interest4 {
+    font-size: 20px !important;
+    min-width: 140px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .interest-container {
+    margin: 0px !important;
+  }
+  .option-section-interest .option-1-interest,
+  .view-text-interest {
+    text-align: start;
+    font-size: 18px !important;
+    min-width: 130px;
+  }
+  .option-section-interest .option-2-interest,
+  .view-text-interest4 {
+    margin-left: 0px;
+    font-size: 18px !important;
+    min-width: unset;
+  }
+}
+
+.interest-container {
+  margin: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.left-container-view-interest {
+  width: 50%;
+  display: flex;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.view-text-interest {
+  margin-left: 2%;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.view-text-interest4 {
+  /* margin-left: 85px;  */
+
+  font-size: 25px;
+  padding: 10px;
+}
+
+.divider-interest {
+  border-bottom: 1px solid #b52d3b;
+}
+
+.divider-ver {
+  border-left: 6px solid #b52d3b;
+  height: 100px;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 1px;
+}
+
+#heart {
+  width: 20px;
+  background: radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top
+      left,
+    radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
+    linear-gradient(to bottom left, red 43%, transparent 43%) bottom left,
+    linear-gradient(to bottom right, red 43%, transparent 43%) bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#heart::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+#blackHeart {
+  width: 20px;
+
+  background: radial-gradient(circle at 60% 65%, black 64%, transparent 65%) top
+      left,
+    radial-gradient(circle at 40% 65%, black 64%, transparent 65%) top right,
+    linear-gradient(to bottom left, black 43%, transparent 43%) bottom left,
+    linear-gradient(to bottom right, black 43%, transparent 43%) bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#blackHeart:hover {
+  width: 20px;
+
+  background: radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top
+      left,
+    radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
+    linear-gradient(to bottom left, red 43%, transparent 43%) bottom left,
+    linear-gradient(to bottom right, red 43%, transparent 43%) bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#blackHeart::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.interest-container .main-ininterest {
+  display: flex;
+}
+.option-section-interest {
+  flex-direction: column;
+}
+.left-container-view-interest {
+  flex-direction: column;
+}
+.option-section-interest .option-1-interest,
+.left-container-view-interest .view-text-interest {
+  color: #808080 !important;
+  font-size: 16px;
+  padding-bottom: 25px;
+  font-style: normal;
+}
+.option-section-interest .option-2-interest,
+.left-container-view-interest .view-text-interest4 {
+  font-size: 16px;
+  padding-top: 0;
+  font-style: normal;
+}
+.interest-container {
+  padding-top: 25px;
+}
+.main-ininterest .interest-views {
+  padding-top: 45px;
+  border-right: 1px solid #f1f1f1;
+
+  margin-right: 25px;
+}
+.option-section-interest .option-1-interest {
+  padding-top: 0;
+}
+.option-section-interest {
+  padding-bottom: 5px;
+}
+.bottom-container-search.main .result-parent-container-search {
+  margin-right: 0px;
+}
+.option-section-interest.main .option-1-interest,
+.option-section-interest.main .option-2-interest,
+.option-section-interest.main .option-2-interest {
+  width: 100%;
+}
+.option-section-interest .option-2-interest,
+.view-text-interest4 {
+  min-width: 100%;
+}
+
+
+@media (max-width: 1199px) {
+  .interest-container .main-ininterest {
+    flex-direction: column;
+  }
+
+}
+@media (max-width: 1199px) {
+  .interest-container .main-ininterest {
+    flex-direction: column;
+  }
+  .main-ininterest .interest-views {
+    display: flex;
+    margin-right: 0px;
+    border-right: 0;
+  }
+  .option-section-interest .option-1-interest,
+  .left-container-view-interest .view-text-interest {
+    padding-top: 0;
+  }
+
+
+
+}
+@media (max-width: 675px) {
+  .main-ininterest .interest-views {
+    flex-direction: column;
+    align-items: center;
+  }
+  .option-section-interest.main{
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .option-section-interest .option-1-interest, .left-container-view-interest .view-text-interest {
+    padding-top: 10px;
+}
+}
+
+
+.no-results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; /* Full viewport height */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+  text-align: center;
+  background-color: #f9f9f9; /* Optional: light background color */
+}

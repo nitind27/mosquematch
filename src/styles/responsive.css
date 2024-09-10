@@ -1,0 +1,234 @@
+/* -------------------Mobile------------------*/
+
+@media (max-width: 764px) {
+  body {
+    width: 100%;
+  }
+  /* -------------------NAV BAR------------------*/
+  .navbar-parent-container-nav {
+    width: 100%;
+  }
+  .navbar-logo-nav {
+    font-size: 15px;
+  }
+  .login-button-nav {
+    height: 26px;
+    width: 48px;
+    font-size: 11px;
+  }
+  .select-language-nav select {
+    width: 88px;
+    height: 26px;
+    font-size: 11px;
+  }
+  .navbar-right-container-nav {
+    display: flex;
+    margin-right: auto;
+    margin-left: 20%;
+  }
+  /* --------------^^^^^^^^^^^^^^^^^^^------------------*/
+
+  /* ---------------------Home Page------------------*/
+  .image-home {
+    height: 50vh;
+  }
+  .header-home-parent {
+    height: 50vh;
+  }
+  .title-container-home {
+    margin-top: 30%;
+  }
+  .title-img-home {
+    font-size: 35px;
+  }
+  .img-subtitle-home {
+    font-size: 13px;
+  }
+  .img-btn-home {
+    width: 150px;
+    height: 30px;
+    margin-top: 15%;
+    font-size: 13px;
+  }
+  .footer-img-home {
+    height: 12%;
+    bottom: auto;
+    margin-bottom: auto;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .img-subtext-container-home {
+    display: flex;
+    width: 100%;
+  }
+  .red-ball-home {
+    width: 10px;
+    height: 5px;
+  }
+  .img-subtext-home {
+    font-size: 9px;
+  }
+  .img-footer-bar-home {
+    height: 30px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-heading-home {
+    font-size: 17px;
+  }
+  .intro-paragraph-home {
+    font-size: 12px;
+  }
+  .results-heading-home {
+    font-size: 20px;
+  }
+  .displayResults-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .results-container-home {
+    margin-top: 3%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+  }
+  .results-img-home {
+    position: relative;
+    border-radius: 100px;
+  }
+  .results-story-home {
+    font-size: 15px;
+  }
+
+  .results-name-home {
+    font-size: 12px;
+    margin-top: 6%;
+    padding-bottom: 10%;
+  }
+  .works-title-home {
+    font-size: 24px;
+  }
+
+  .works-sub-home {
+    font-size: 12px;
+  }
+  .svg-container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .create-profile-svg-home {
+    padding-top: 13%;
+    width: 200px;
+    text-align: center;
+  }
+
+  .first-svg-title-home {
+    font-size: 14px;
+    color: #b52d3b;
+  }
+  .first-svg-sub-home {
+    font-size: 13px;
+  }
+  .works-button-container-home {
+    padding-bottom: 4%;
+    margin-top: 10%;
+  }
+  .download-container-home {
+    height: 45vh;
+  }
+  .bottom-image-home {
+    height: 45vh;
+  }
+  .bottom-image-home::before {
+    height: 45vh;
+  }
+  .download-subContainer-home {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .download-heading-home {
+    font-size: 24px;
+    margin-top: 30%;
+  }
+  .google-svg-home {
+    padding-left: 3%;
+    padding-top: 20%;
+    height: 100px;
+  }
+  .apple-svg-home {
+    padding-left: 3%;
+  }
+  /* --------------^^^^^^^^^^^^^^^^^^^------------------*/
+
+  /* ---------------------Footer------------------*/
+
+  .change-language-section-footer {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .change-language-head-footer {
+    color: white;
+    padding-left: 2%;
+    padding-right: 1%;
+    font-size: 12px;
+  }
+  .change-language-footer {
+    color: white;
+    font-size: 12px;
+  }
+  .links-container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1-footer {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+  }
+  .container-2-footer {
+    margin-left: 4%;
+  }
+  .legal-container-parent-footer {
+    flex-direction: column;
+  }
+  .legal-container-2-footer {
+    margin-left: 4%;
+    padding-top: 2%;
+  }
+  .mobile-footer {
+    background-color: #777777;
+  }
+  .copyrights-parent-footer {
+    margin-top: 1%;
+    background-color: #777777;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --------------^^^^^^^^^^^^^^^^^^^------------------*/

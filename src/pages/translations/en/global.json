@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "first": "Mosque",
+    "second": "Match",
+    "login": "Login"
+  },
+  "img": {
+    "title1": "Find Your Muslim Life",
+    "title2": "Partner",
+    "subtitle": "Trusted Site Used By Over 7.5 Million Muslims Worldwide",
+    "btn": "View Singles Now",
+    "subtext1": "Premium Service Designed Specifically For Muslims",
+    "subtext2": "Access To Advanced Messaging Features",
+    "subtext3": "Trusted Site Backed By Cupid Media"
+  },
+  "intro": {
+    "heading1": "Why Choose Muslima?",
+    "heading2": "International Muslim Matrimonials - Trusted By Over 7.5 Million Muslims",
+    "heading3": "Start Your Success Story On Muslima",
+    "para1": "Muslima has helped thousands of Muslim singles find their match. As one of the leading Islamic matrimonial sites, we are one of the largest and most trusted sites around. Not many other sites can offer you a membership database of over 7.5 million members with the promise of introducing you to single Muslim men and women across the world.",
+    "para2": "Muslima is part of the well-established Cupid Media network that operates over 30 reputable niche sites. Unlike other sites our site is purely for those seeking Muslim singles for marriage in a manner that adheres to the Islamic rules on courtship. ",
+    "para3": "Our membership base is made up of over 7.5 million singles from USA, Europe, Asia, the Middle East and many other countries. We are committed to helping you find the perfect Islamic match, no matter where in the world they may be.",
+    "para4": "As a premier site for Muslim marriages, we successfully bring together singles from around the world. Since 2006, thousands of happy men and women have met their soul mates on Muslima and have shared their stories with us. Check out the many success stories here. ",
+    "para5": "Let us help you fulfil your faith and earn your reward from Allah (swt). Join free today."
+  },
+  "results": {
+    "heading": "Members Who Have Found Love",
+    "story1": "I found the one I am looking for.",
+    "name1": "Muhammad",
+    "story2": "We got engaged in Nador, Morocco",
+    "name2": "Ismail",
+    "story3": "Met my wife through Muslima, Alhamdulillah!",
+    "name3": "Ruh",
+    "story4": "Allah guided us both\nhalfway across the globe\nto find eachother",
+    "name4": "Adis",
+    "button": "Read Testimonials"
+  },
+  "works": {
+    "heading": "How It Works",
+    "sub": "Get started on MosqueMatch.com today in 3 simple steps:",
+    "step1": "Create A Profile",
+    "step2": "Browse Photos",
+    "step3": "Start Communicating",
+    "para1": "Create your profile in seconds with our easy sign-up. Don't forget to add a photo!",
+    "para2": "Search our large member base with ease, with a range of preferences and settings.",
+    "para3": "Send a message or interest to start communicating with members. It's your time to shine.",
+    "button": "Find Your Match"
+  },
+  "download": {
+    "heading": "Download Now"
+  },
+  "footer": {
+    "language": "This site is also available in: ",
+    "visit": "Visit Our Other Sites",
+    "legalHead1": "Company",
+    "legalHead2": "Information",
+    "legalHead3": "Legal",
+    "legalHead4": "Follow Us",
+    "legalPara1": "About Us",
+    "legalPara2": "Other Sites",
+    "legalPara3": "Corporate",
+    "legalPara4": "Affiliates",
+    "legalPara5": "Success Stories",
+    "legalPara6": "Contact Us",
+    "legalPara7": "Online Meeting Safety",
+    "legalPara8": "Site Map",
+    "legalPara9": "Terms of Use",
+    "legalPara10": "Privacy Statement",
+    "legalPara11": "Refund Policy",
+    "legalPara12": "Cookie Policy",
+    "legalPara13": "Community Guidelines",
+    "rights": "Cupid Media, the Cupid Media Logo and Muslima.com are registered trademarks of Ecom Holdings Pty Ltd and used with permission by Cupid Media Pty Ltd."
+  },
+  "signIn": {
+    "first": "First Name",
+    "last": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "terms1": "By continuing you agree to MosqueMatch",
+    "terms2": "Terms & Conditions",
+    "login": "Login",
+    "acc1": "Don't have an account?",
+    "acc2": "Sign Up",
+    "confirm": "Confirm Password",
+    "register": "Register",
+    "already1": "Already have an account?",
+    "already2": "Sign In",
+    "policy": "Policy",
+    "forgot": "Forgot Password?",
+    "forgot2": "Forgotten your password?",
+    "forgot3": "We've got you covered",
+    "remember": "Go back?",
+    "reset": "Reset Password",
+    "user": "Login as User?"
+  },
+  "gender": {
+    "heading": "Choose Your Gender",
+    "iAm": "i am",
+    "male": "Male",
+    "female": "Female"
+  },
+  "aboutMe": {
+    "heading": "About Me",
+    "where": "Where do you live",
+    "country": "Country of birth",
+    "date": "Date of birth",
+    "tag": "Tag Line",
+    "about": "A Little About You",
+    "what": "What I'm looking for"
+  },
+  "eduWork": {
+    "heading": "Education And Work",
+    "level": "My education level",
+    "subject": "Subject i studied",
+    "profession": "My profession",
+    "job": "My job title",
+    "language1": "My first language",
+    "language2": "My second language"
+  },
+  "personal": {
+    "heading": "Personal Information",
+    "citizen": "My citizenship",
+    "origin": "Country of origin",
+    "relocate": "Willing to relocate",
+    "income": "My income",
+    "marriage": "I'm looking to marriage within",
+    "status": "Martial status",
+    "children1": "Would i like to have children",
+    "children2": "Do i have children",
+    "living": "My living arrangements",
+    "height": "My height",
+    "build": "My build",
+    "smoke": "Do i smoke",
+    "drink": "Do i drink",
+    "disability": "Do i have any disability",
+    "long": "How long do you spend on your phone daily",
+    "ethnicity": "My Ethnicity"
+  },
+  "religon": {
+    "heading": "Religon",
+    "religious": "Religiousness",
+    "sector": "My sector",
+    "prefer": "Do you prefer Hijab / Niqab?",
+    "beard": "Do you prefer a beard?",
+    "revert": "Are you a revert?",
+    "halal": "Do you keep halal?",
+    "pray": "Do you pray?",
+    "quran": "How often do you read Quran?"
+  }
+}
